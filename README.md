@@ -1,4 +1,14 @@
-# P-F
+# Administración de redes Linux
+
+Proyecto final de administración de redes: usuarios, automatización, respaldos y monitoreo en AlmaLinux.
+
+Proyecto académico de BUAP. Proyecto final seleccionado.
+
+## Contenido principal
+
+`proyecto_secretaria_salud.sh` contiene el proyecto final; `PF_0.sh` es una variante del mismo trabajo. Los ejercicios de Packet Tracer se retiraron del repositorio público. Revisa el script antes de ejecutarlo: administra servicios y usuarios y requiere permisos de root.
+
+## Documentación y requisitos
 
 Proyecto o conjunto de prácticas académicas de BUAP. Se publica como parte del archivo de trabajos de `6SML98`.
 
@@ -20,4 +30,3 @@ Archivo académico original. Puede contener operaciones pendientes o dependencia
 
 ## Simulaciones de redes
 
-También se conservan las prácticas de Cisco Packet Tracer de los semestres 6, 7 y 9 en `practicas-packet-tracer/`. Cada carpeta incluye su lista de archivos y requisitos. Los programas de administración originales están en la raíz.
