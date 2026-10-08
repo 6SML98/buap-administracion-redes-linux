@@ -7,7 +7,7 @@
 #   - Automatización (cron, at)
 #   - Respaldos (rsync, tar, gzip, bzip2, dump/restore)
 #   - Seguridad y monitoreo (Nagios, iftop/vnstat, nmap, wireshark)
-#  Sistema probado para AlmaLinux 9
+#  Entorno objetivo: AlmaLinux 9
 # ============================================================
 
 # ---------- Validación de root ----------

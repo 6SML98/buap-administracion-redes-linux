@@ -1,31 +1,22 @@
 # Administración de redes Linux
 
-Proyecto final de administración de redes: usuarios, automatización, respaldos y monitoreo en AlmaLinux.
+Menú Bash para usuarios, grupos, cron/at, respaldos y herramientas de monitoreo. Proyecto destinado a AlmaLinux 9.
 
-Proyecto académico de BUAP. Proyecto final seleccionado.
+## Requisitos
 
-## Contenido principal
+Una máquina virtual AlmaLinux 9 y las utilidades que selecciones en el menú. Las operaciones administrativas requieren root.
 
-`proyecto_secretaria_salud.sh` contiene el proyecto final; `PF_0.sh` es una variante del mismo trabajo. Los ejercicios de Packet Tracer se retiraron del repositorio público. Revisa el script antes de ejecutarlo: administra servicios y usuarios y requiere permisos de root.
+## Ejecutar
 
-## Documentación y requisitos
+Comprueba primero la sintaxis:
 
+```bash
+bash -n proyecto_secretaria_salud.sh
+bash -n PF_0.sh
+```
 
+En una VM de pruebas, revisa el script y ejecútalo con `sudo bash proyecto_secretaria_salud.sh`. PF_0.sh es una variante.
 
-## Tecnologías y archivos
+## Verificación del 8 de octubre de 2026
 
-Extensiones de código: .sh.
-
-## Ejecución
-
-Leer el script y sus requisitos antes de ejecutarlo en Linux. Algunos scripts administran usuarios o servicios y requieren un entorno de pruebas.
-
-## Contenido publicado
-
-Se conserva el código y los recursos referenciados. Se excluyen dependencias instaladas, resultados de compilación, configuraciones personales, documentos ajenos al programa y datos locales.
-
-## Estado
-
-Archivo académico original. Puede contener operaciones pendientes o dependencias antiguas. No se ha verificado la ejecución de todos los programas.
-
-
+ShellCheck no encontró errores tras corregir los finales de línea de PF_0.sh; quedaron diez sugerencias de estilo. No se ejecutaron las operaciones de usuarios, servicios ni respaldos: requieren la VM Linux. No uses este proyecto como prueba de administración real sin completar esa validación.
