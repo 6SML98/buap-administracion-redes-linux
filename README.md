@@ -17,3 +17,7 @@ Se conserva el código y los recursos referenciados. Se excluyen dependencias in
 ## Estado
 
 Archivo académico original. Puede contener operaciones pendientes o dependencias antiguas. No se ha verificado la ejecución de todos los programas.
+
+## Simulaciones de redes
+
+También se conservan las prácticas de Cisco Packet Tracer de los semestres 6, 7 y 9 en `practicas-packet-tracer/`. Cada carpeta incluye su lista de archivos y requisitos. Los programas de administración originales están en la raíz.
